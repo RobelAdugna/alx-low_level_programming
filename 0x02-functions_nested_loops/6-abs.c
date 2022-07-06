@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_sign - prints the size of a number
+ * _abs -> computes the absolutes value of an integer
  * @n: the int to check
- * Return: 1 and prints + if n is zero
+ * Return: the absolute value of int
  */
-int _abs(int)
+int _abs(int n)
 {
 if (n >= 0)
 {
