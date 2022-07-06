@@ -25,5 +25,5 @@ _putchar('\n');
 j++;
 }
 i++;
+_putchar('\n');
 }
-
