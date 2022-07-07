@@ -1,1 +1,1 @@
-0x04-more_functions_nested_loops
+File 0-isupper.c is a function that checks for uppercase character
