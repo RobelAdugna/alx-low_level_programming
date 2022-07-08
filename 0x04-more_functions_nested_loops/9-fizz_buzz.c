@@ -12,28 +12,28 @@ void fizz_buzz(void)
 int i;
 
 for (i = 1; i <= 100; i++)
-{if (i % 3 == 0 && i % 5 != 0)
 {
-Printf(" Fizz");
+if (i % 3 == 0 && i % 5 != 0)
+{
+Printf("Fizz ");
 }
 else if (i % 5 == 0 && i % 3 != 0)
 {
-Printf(" Buzz");
+Printf("Buzz ");
 }
 else if (i % 3 == 0 && i % 5 == 0)
 {
-Printf(" FizzBuzz");
+Printf("FizzBuzz ");
 }
 else if (i == 1)
 {
-Printf("%d", i);
+Printf("%d ", i);
 }
 else
 {
-Printf(" %d", i);
+Printf("%d ", i);
 }
 }
 Printf("\n");
-
 Return (0);
 }
