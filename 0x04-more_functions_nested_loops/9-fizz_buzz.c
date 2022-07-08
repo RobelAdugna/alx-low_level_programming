@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main"
 #include "stdio.h"
 
 /**
@@ -15,25 +15,26 @@ for (i = 1; i <= 100; i++)
 {
 if (i % 3 == 0 && i % 5 != 0)
 {
-Printf("Fizz ");
+printf("Fizz ");
 }
 else if (i % 5 == 0 && i % 3 != 0)
 {
-Printf("Buzz ");
+printf("Buzz ");
 }
 else if (i % 3 == 0 && i % 5 == 0)
 {
-Printf("FizzBuzz ");
+printf("FizzBuzz ");
 }
 else if (i == 1)
 {
-Printf("%d ", i);
+printf("%d ", i);
 }
 else
 {
-Printf("%d ", i);
+printf("%d ", i);
 }
 }
-Printf("\n");
-Return (0);
+printf("\n");
+
+return (0);
 }
